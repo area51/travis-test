@@ -14,6 +14,7 @@
 		FA02F38721A5FE95000E2AB8 /* MovieAroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA02F38621A5FE95000E2AB8 /* MovieAroundTests.swift */; };
 		FA02F39221A5FE95000E2AB8 /* MovieAroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA02F39121A5FE95000E2AB8 /* MovieAroundUITests.swift */; };
 		FA02F3A121A600A3000E2AB8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FA02F3A021A600A3000E2AB8 /* README.md */; };
+		FA02F3A621A61768000E2AB8 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA02F3A521A61768000E2AB8 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		FA02F39121A5FE95000E2AB8 /* MovieAroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieAroundUITests.swift; sourceTree = "<group>"; };
 		FA02F39321A5FE95000E2AB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA02F3A021A600A3000E2AB8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FA02F3A521A61768000E2AB8 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			children = (
 				FA02F37121A5FE94000E2AB8 /* AppDelegate.swift */,
 				FA02F37321A5FE94000E2AB8 /* ViewController.swift */,
+				FA02F3A521A61768000E2AB8 /* ViewController.xib */,
 				FA02F37821A5FE95000E2AB8 /* Assets.xcassets */,
 				FA02F39F21A5FF3C000E2AB8 /* SupportingFiles */,
 			);
@@ -240,6 +243,7 @@
 			files = (
 				FA02F3A121A600A3000E2AB8 /* README.md in Resources */,
 				FA02F37C21A5FE95000E2AB8 /* LaunchScreen.storyboard in Resources */,
+				FA02F3A621A61768000E2AB8 /* ViewController.xib in Resources */,
 				FA02F37921A5FE95000E2AB8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
