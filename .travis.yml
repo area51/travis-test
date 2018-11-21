@@ -7,4 +7,4 @@ install:
 - brew install mint
 
 script:
-- xcodebuild test -project ./MovieAround.xcodeproj -scheme MovieAround | xcpretty
+- xcodebuild test -project ./MovieAround.xcodeproj -scheme MovieAround -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty
