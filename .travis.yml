@@ -1,11 +1,10 @@
 os: osx
 osx_image: xcode10.1
 language: swift
-xcode_destination: platform=iOS Simulator,OS=10.1,name=iPad Pro (9.7-inch)
 
 install:
 - brew update
 - brew install mint
 
 script:
-- xcodebuild test -project ./MovieAround.xcodeproj -scheme MovieAround ONLY_ACTIVE_ARCH=NO | xcpretty && exit ${PIPESTATUS[0]}
+- xcodebuild test -project ./MovieAround.xcodeproj -scheme MovieAround -sdk iphonesimulator12.1 ONLY_ACTIVE_ARCH=NO | xcpretty && exit ${PIPESTATUS[0]}
